@@ -1,7 +1,8 @@
 
 #include<stdio.h>
-void reverse(char s[]){
-   int c,j,i=0,k=0;
+void love (char s[]){
+    typedef int ryy;
+   ryy c,j,i=0,k=0;
    while(s[k]!='\0'){
     k++;}
    j=k-(i+1);
@@ -13,10 +14,10 @@ void reverse(char s[]){
     s[j]=c;}
 }
 int main(){
-    printf("请输入一个字符串我来倒置：");
+    printf("请输入一个字符串我来反转：");
 	char *s;
     scanf("%[^\n]",*&s);  
-	reverse(s);
+	love(s);
     printf("%s\n",s);
 	return 0 ;
 }
